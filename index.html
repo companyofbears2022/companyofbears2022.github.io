@@ -2,11 +2,12 @@
 <html>
   <head>
     <link href="css/styles.css" rel="stylesheet">
+	<script type="text/javascript" src="js/scripts.js"></script>
   </head>
   <body>
 	<div class="top-pic">
 	  <div class="shadow"></div>
-	  <div class="logo">像素狗熊连</div>
+	  <div class="logo"></div>
 	  <div class="shadow1"></div>
 	</div>
 	<div class="bodybg">
@@ -14,10 +15,10 @@
 		<!--导航栏-->
 		<div class="nav">
 		  <div class="nav-b">
-			<div>开发日志</div>
-			<div>模组介绍</div>
-			<div>胜场段位</div>
-			<div>捐赠资助</div>
+			<a href="#devlog-box">开发日志</a>
+			<a href="#descp-box">模组介绍</a>
+			<a href="#ranking">胜场段位</a>
+			<a href="#dona">捐赠资助</a>
 		  </div>
 		</div>
 		
@@ -25,19 +26,18 @@
 		<div class="first">
 
 		  <!--开发日志-->
-		  <div class="devlog-box">
+		  <div class="devlog-box" id="devlog-box">
 			<div class="head-text">
 			  <div class="text-main">开发日志</div>
-			  <div class="text-more">更多>></div>
+			  <div class="text-more" id="devMore">更多>></div>
 			</div>
 			<div class="devlog">
-			  <div class="devlog-line"><p>■</p><div>更多特殊语音</div></div>
-			  <div class="devlog-line"><p>■</p><div>东德即将加入战斗！</div></div>
+			  
 			</div>
 		  </div>
 
 		  <!--模组介绍-->
-		  <div class="descp-box">
+		  <div class="descp-box" id="descp-box">
 			<div class="head-text">
 			  <div class="text-main">模组介绍</div>
 			  <div class="text-more">更多>></div>
@@ -54,7 +54,7 @@
 		<div class="secon">
 
 		  <!--胜场段位-->
-		<div class="ranking-box">
+		<div class="ranking-box" id="ranking">
 		  <div class="head-text">
 			<div class="text-main">胜场段位</div>
 			<div class="text-more">更多>></div>
@@ -70,7 +70,7 @@
 		<div class="thir">
 
 		  <!--捐赠资助-->
-		  <div class="dona-box">
+		  <div class="dona-box" id="dona">
 			<div class="head-text">
 			  <div class="text-main">捐赠资助</div>
 			  <div class="text-more">更多>></div>

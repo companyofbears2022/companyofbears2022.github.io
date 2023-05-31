@@ -1,0 +1,159 @@
+body
+{
+  font-size: 14pt;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.top-pic {
+  height: 300px;
+  background-image: url(../res/body.jpg);
+  background-size: 100%;
+  background-position: center, center;
+  background-repeat: no-repeat;
+}
+.top-pic>.shadow {
+  height: 80px;
+  background: linear-gradient(to bottom,rgba(38,38,38,1),rgba(255,255,255,0));
+}
+.top-pic>.shadow1 {
+  height: 120px;
+  background: linear-gradient(to top,rgba(38,38,38,1),rgba(255,255,255,0));
+}
+.top-pic>.logo {
+  width: 400px;
+  height: 100px;
+  font-size: 50px;
+  color: #B60A00;
+  font-weight: 800;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 140px;
+}
+.bodybg {
+  display: inline-block;
+  width: 100%;
+  height: 2400px;
+  background-image: url(../res/header.jpg);
+  background-size: 100%;
+  background-position: center, center;
+  background-repeat: repeat-y;
+}
+.bodybg>.shadow {
+  display: inline-block;
+  width: 100%;
+  height: 2400px;
+  background-color: rgba(55,55,55,0.9);
+}
+
+.nav {
+  height: 50px;
+  background-color: rgba(138,138,138,0.4);
+  display: flex;
+}
+.nav-b {
+  height: 50px;
+  margin: 0 auto;
+  color: #710600;
+  font-weight: 600;
+}
+.nav-b div {
+  display: inline-block;
+  text-align: center;
+  line-height: 50px;
+  width: 150px;
+  height: 100%;
+  font-size: 16px;
+}
+.nav-b div:hover {
+  background-color: rgba(48,48,48,0.5);
+  color: #EAE0E2;
+}
+
+.first {
+  width: 90%;
+  height: 370px;
+  margin: 20px 5% 20px 5%;
+  /*background-color: red;*/
+}
+.devlog-box {
+  display: inline-block;
+  width: 60%;
+  height: 300px;
+  margin-top: 20px;
+}
+.head-text {
+  height:30px;
+  border-bottom:1px solid #A11100;
+  
+}
+.text-main {
+  display: inline-block;
+  font-size: 22px;
+  color: #A11100;
+  font-weight:800;
+}
+.text-more {
+  display: inline-block;
+  font-size: 12px;
+  color: #A11100;
+  margin-top: 12px;
+  float: right;
+  vertical-align:bottom;
+}
+
+.descp-box {
+  float: right;
+  display: inline-block;
+  width: 30%;
+  height: 300px;
+  margin-top: 20px;
+}
+
+
+.devlog-line {
+  height: 28px;
+  line-height: 28px;
+  border-bottom: 1px solid #636363;
+}
+.devlog-line p {
+  display: inline-block;
+  font-size: 13px;
+  color: #C1C1C1;
+  vertical-align: top;
+  margin-right: 15px;
+}
+.devlog-line div {
+  display: inline-block;
+  
+}
+
+.secon {
+  width: 90%;
+  height: 500px;
+  margin: 20px 5% 20px 5%;
+  /*background-color: red;*/
+}
+.ranking-box {
+  display: inline-block;
+  width: 100%;
+  height: 450px;
+  margin-top: 10px;
+}
+
+.thir {
+  width: 90%;
+  height: 340px;
+  margin: 20px 5% 20px 5%;
+  /*background-color: red;*/
+}
+.dona-box {
+  display: inline-block;
+  width: 100%;
+  height: 300px;
+  margin-top: 10px;
+}
+

@@ -1,0 +1,44 @@
+{
+  "id": "4099001",
+  "name": "COB",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "35787102",
+      "name": "英国_c",
+      "font_class": "yingguo_c",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "35787426",
+      "name": "美国",
+      "font_class": "meiguo",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "35787427",
+      "name": "苏联",
+      "font_class": "sulian",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "35787429",
+      "name": "阵营图标",
+      "font_class": "xide",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "35787494",
+      "name": "东德_c",
+      "font_class": "dongde_c",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    }
+  ]
+}

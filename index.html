@@ -2,7 +2,18 @@
 <html>
   <head>
     <link href="css/styles.css" rel="stylesheet">
+	
 	<script type="text/javascript" src="js/scripts.js"></script>
+	<script src="./fonts/iconfont.js"></script>
+<style>
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+</style>
   </head>
   <body>
 	<div class="top-pic">
@@ -43,7 +54,7 @@
 			  <div class="text-more">更多>></div>
 			</div>
 			<p>
-			  像素狗熊连是一个以PC端游戏英雄连2为框架在铁锈战争的框架上制作的即时策略模组<br>模组以五个主要二战势力作为指挥部扮演模组以五个主要二战势力作为指挥部扮演，派遣你的单位摧毁敌方大本营即可获胜<br>目前的阵营有:英军; 东德、苏联、美军、西德正在制作中。后续拓充阵营有:中华诸军、意大利协助军、日军、自由法国<br>加入群聊一起讨论单位环境平衡和更新。QQ群聊:543839696
+			  像素狗熊连是一个以PC端游戏英雄连2作为参照，在铁锈战争的基础上制作的即时策略模组。模组以五个主要二战势力扮演指挥官，派遣你的单位摧毁敌方大本营即可获胜。目前的阵营有:英军、东德，未制作的阵营有苏联、美军、西德。后续拓充阵营有:中华诸军、意大利协助军、日军、自由法国。加入群聊一起讨论单位环境平衡和更新。QQ群聊:543839696。模组有自己的地图，常规战斗请以自带的地图为平衡基点。<br><br>创作者名单<br>模组制定：<br>Qborth 古鸡<br>贴图参与者：<br>Daniel_Calan Melina<br>
 			</p>
 		  </div>
 		  
@@ -51,15 +62,102 @@
 		
 		
 		<!--二行-->
-		<div class="secon">
+		<div class="secon" id="secon">
 
 		  <!--胜场段位-->
 		<div class="ranking-box" id="ranking">
 		  <div class="head-text">
 			<div class="text-main">胜场段位</div>
-			<div class="text-more">更多>></div>
+			<div class="text-more" id="rankMore">更多>></div>
 		  </div>
 		  <div class="ranking">
+			
+			<div class="rank-l1">
+			  
+			  <div class="EGL">
+				<div class="rank-title"><svg class="icon svg-icon coun-icon" aria-hidden="true"><use xlink:href="#icon-yingguo_c"></use></svg> 英国</div>
+			  <table>
+				<thead>
+				<th>排名</th><th>胜场</th><th>段位</th><th>ID</th>
+				</thead>
+				<tbody id="EGLTbody">
+				  
+				</tbody>
+			  </table>
+			  </div>
+			  
+			  <div class="WG">
+				<div class="rank-title"><svg class="icon svg-icon coun-icon" aria-hidden="true"><use xlink:href="#icon-xide"></use></svg> 西德</div>
+				<table>
+				  <thead>
+					<th>排名</th><th>胜场</th><th>段位</th><th>ID</th>
+				  </thead>
+				  <tbody id="WGTbody">
+
+				  </tbody>
+				</table>
+			  </div>
+			  
+			</div>
+			
+			<div class="rank-l2">
+
+			  <div class="SVT">
+				<div class="rank-title"><svg class="icon svg-icon coun-icon" aria-hidden="true"><use xlink:href="#icon-sulian"></use></svg> 苏联</div>
+				<table>
+				  <thead>
+					<th>排名</th><th>胜场</th><th>段位</th><th>ID</th>
+				  </thead>
+				  <tbody id="SVTTbody">
+
+				  </tbody>
+				</table>
+			  </div>
+
+			  <div class="EG">
+				<div class="rank-title"><svg class="icon svg-icon coun-icon" aria-hidden="true"><use xlink:href="#icon-dongde_c"></use></svg> 东德</div>
+				<table>
+				  <thead>
+					<th>排名</th><th>胜场</th><th>段位</th><th>ID</th>
+				  </thead>
+				  <tbody id="EGTbody">
+
+				  </tbody>
+				</table>
+			  </div>
+
+			</div>
+			
+			
+			
+
+			<div class="rank-l3">
+
+			  <div class="USA">
+				<div class="rank-title"><svg class="icon svg-icon coun-icon" aria-hidden="true"><use xlink:href="#icon-meiguo"></use></svg> 美国</div>
+				<table>
+				  <thead>
+					<th>排名</th><th>胜场</th><th>段位</th><th>ID</th>
+				  </thead>
+				  <tbody id="USATbody">
+
+				  </tbody>
+				</table>
+			  </div>
+
+			  <div class="TOT">
+				<div class="rank-title">总排名</div>
+				<table>
+				  <thead>
+					<th>排名</th><th>胜场</th><th>段位</th><th>ID</th>
+				  </thead>
+				  <tbody id="TOTTbody">
+
+				  </tbody>
+				</table>
+			  </div>
+
+			</div>
 			
 		  </div>
 		</div>

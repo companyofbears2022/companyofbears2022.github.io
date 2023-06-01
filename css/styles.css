@@ -12,6 +12,22 @@ a {
   text-decoration: none;
 }
 
+@font-face {
+  font-family: "iconfont logo";
+  src: url('https://at.alicdn.com/t/font_985780_km7mi63cihi.eot?t=1545807318834');
+  src: url('https://at.alicdn.com/t/font_985780_km7mi63cihi.eot?t=1545807318834#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_985780_km7mi63cihi.woff?t=1545807318834') format('woff'),
+  url('https://at.alicdn.com/t/font_985780_km7mi63cihi.ttf?t=1545807318834') format('truetype'),
+  url('https://at.alicdn.com/t/font_985780_km7mi63cihi.svg?t=1545807318834#iconfont') format('svg');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .logo {
   height: 200px;
   background-image: url(../res/logo.jpg);
@@ -59,7 +75,7 @@ a {
 .bodybg>.shadow {
   display: inline-block;
   width: 100%;
-  height: 2400px;
+  height: 100%;
   background-color: rgba(55,55,55,0.9);
 }
 
@@ -101,6 +117,7 @@ a {
   height: 350px;
   margin-top: 20px;
   overflow: hidden;
+  
 }
 .head-text {
   height:30px;
@@ -112,14 +129,17 @@ a {
   font-size: 22px;
   color: #A11100;
   font-weight:800;
+  text-shadow: 0px 0px 11px #fff;
 }
 .text-more {
   display: inline-block;
-  font-size: 13px;
+  font-size: 16px;
   color: #BC1C00;
-  margin-top: 12px;
+  margin-top: 10px;
   float: right;
   vertical-align:bottom;
+  text-shadow: 0px 0px 11px #fff;
+  font-weight:700;
 }
 
 .descp-box {
@@ -129,6 +149,7 @@ a {
   height: 300px;
   margin-top: 20px;
   color: #B8B8B8;
+  font-size: 15px;
 }
 .descp-box p {
   margin-top: 9px;
@@ -161,16 +182,121 @@ a {
 
 .secon {
   width: 90%;
-  height: 500px;
+  height: 650px;
   margin: 20px 5% 20px 5%;
   /*background-color: red;*/
 }
 .ranking-box {
   display: inline-block;
   width: 100%;
-  height: 450px;
+  height: 600px;
   margin-top: 10px;
 }
+.rank-icon {
+  font-size: 15px;
+}
+.coun-icon {
+  font-size: 23px;
+}
+.rank-l1 {
+  height: 175px;
+  overflow:hidden;
+  margin-top: 15px;
+}
+.rank-l2 {
+  height: 175px;
+  overflow:hidden;
+  margin-top: 15px;
+}
+.rank-l3 {
+  height: 175px;
+  overflow:hidden;
+  margin-top: 15px;
+}
+
+.ranking .EGL {
+  display: inline-block;
+  width: 45%;
+  /*background-color: #fff;*/
+}
+.ranking .WG {
+  display: inline-block;
+  width: 45%;
+  float: right;
+  /*background-color: #fff;*/
+}
+.ranking .SVT {
+  display: inline-block;
+  width: 45%;
+}
+.ranking .EG {
+  display: inline-block;
+  width: 45%;
+  float: right;
+  /*background-color: #fff;*/
+}
+.ranking .USA {
+  display: inline-block;
+  width: 45%;
+}
+.ranking .TOT {
+  display: inline-block;
+  width: 45%;
+  float: right;
+  /*background-color: #fff;*/
+}
+.ranking table {
+  text-align: center;
+  table-layout: fixed;
+}
+.ranking td {
+  width: 25%;
+  height: 20px;
+  color: #979797;
+  border-bottom: 1px solid #868686;
+  overflow:hidden;
+  white-space:nowrap;
+  word-break:keep-all;
+  /*white-space: nowrap;
+  overflow:hidden;*/
+  font-size: 13px;
+  line-height: 20px;
+}
+.rank-title {
+  display: inline-block;
+  width: 100%;
+  height: 25px;
+  font-size: 20px;
+  color: #E0DA00;
+  font-weight: 800;
+  text-align: center;
+  line-height: 40px;
+}
+.WG .rank-title {
+  color: #A2BDD6;
+}
+.SVT .rank-title {
+  color: #6DA66B;
+}
+.EG .rank-title {
+  color: #8F8F8F;
+}
+.USA .rank-title {
+  color: #C88A4C;
+}
+.TOT .rank-title {
+  color: #E8E8E7;
+}
+.ranking table {
+  width: 100%;
+}
+.ranking th {
+  width: 20%;
+  color: #A4A4A4;
+  border-bottom: 1px solid #BCBCBC;
+}
+
+
 
 .thir {
   width: 90%;

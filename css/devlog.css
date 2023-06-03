@@ -1,6 +1,6 @@
 body
 {
-  font-size: 14pt;
+  font-size: 14px;
 }
 
 * {
@@ -82,11 +82,11 @@ a {
   width: 150px;
   height: 100%;
   font-size: 16px;
-  color: #710600;
+  color: #EAE0E2;
 }
 .nav-b a:hover {
   background-color: rgba(48,48,48,0.5);
-  color: #EAE0E2;
+  color: #C80B00;
 }
 
 .cont {

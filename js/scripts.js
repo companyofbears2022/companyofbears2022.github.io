@@ -90,6 +90,7 @@ function appendList(root,detail) {
 	var devBox= document.querySelector(".devlog-box");
 	var devlogMore= document.querySelector("#devMore");
 	var rankMore0= document.querySelector("#rankMore");
+	var descpMore= document.querySelector("#descpMore");
 	var rankMore1= document.querySelector(".rank-l1");
 	var rankMore2= document.querySelector(".rank-l2");
 	var rankMore3= document.querySelector(".rank-l3");
@@ -109,7 +110,9 @@ function appendList(root,detail) {
 			devClick=0;
 		}
 	}
-	
+	descpMore.onclick=function descpMoreM() {
+		alert("官方Q群：\n543839696 (一群)\n114514 (二群)\n欢迎入群交流！");
+		}
 	rankMore.onclick=function rankMoreM() {
 		if(rankClick==0) {
 			bodybg.style.height = bodybg.offsetHeight + ((Math.max(EGLRank.length,WGRank.length)/2-5)>0?(Math.max(EGLRank.length,WGRank.length)/2-5):0)*23 + 'px';

@@ -310,4 +310,40 @@ a {
   height: 300px;
   margin-top: 10px;
 }
+.dona {
+  width: 100%;
+  /*background-color: #fff;*/
+  display: flex; 
+  margin-top: 20px;
+}
+.dona-pic-box {
+  display: inline-block;
+  width: 25%;
+  height: 400px;
+  margin: auto;
+}
+.donaPic {
+  display: inline-block;
+  width: 100%;
+  height: 380px;
+  
+  
+}
+.dona p {
+  color: #fff;
+  text-align: center;
+}
+.dona .pic0 {
+  background-image: url(../res/dona.jpg);
+  background-size: 100%;
+  background-position: center, center;
+  background-repeat: no-repeat;
+ }
+  
+.dona .pic1 {
+  background-image: url(../res/q.jpg);
+  background-size: 100%;
+  background-position: center, center;
+  background-repeat: no-repeat;
+}
 

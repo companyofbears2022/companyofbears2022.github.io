@@ -31,7 +31,7 @@ a {
 .logo {
   height: 200px;
   background-image: url(../res/logo.jpg);
-  background-size: 20%;
+  background-size: 200px;
   background-position: center, center;
   background-repeat: no-repeat;
 }
@@ -344,6 +344,13 @@ a {
 .dona .pic1 {
   background-image: url(../res/q.jpg);
   background-size: 100%;
+  background-position: center, center;
+  background-repeat: no-repeat;
+}
+  
+.dona .pic2 {
+  background-image: url(../res/g.png);
+  background-size: 95%;
   background-position: center, center;
   background-repeat: no-repeat;
 }

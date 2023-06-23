@@ -198,6 +198,16 @@ a {
 .coun-icon {
   font-size: 23px;
 }
+.rank-l0 {
+  font-size: 15px;
+  height: 30px;
+}
+.rank-time {
+  color: #C0BCBC;
+  line-height: 30px;
+  float:right;
+  margin-right: 0px;
+}
 .rank-l1 {
   height: 175px;
   overflow:hidden;
@@ -315,6 +325,12 @@ a {
   /*background-color: #fff;*/
   display: flex; 
   margin-top: 20px;
+}
+
+#dona .text-more {
+  font-size: 20px;
+  margin-top: 4px;
+  color: #E5DCDB;
 }
 .dona-pic-box {
   display: inline-block;

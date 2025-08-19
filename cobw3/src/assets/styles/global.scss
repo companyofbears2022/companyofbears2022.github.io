@@ -1,0 +1,37 @@
+:root {
+    --back-ground-color: #122126;
+    --font-color: #dcdcdc;
+    --button-color: yellow;
+}
+:root[data-theme="light"] {
+    --back-ground-color: #ffffff;
+    --font-color: #764abc;
+    --button-color: green;
+}
+:root[data-theme="pink"] {
+    --back-ground-color: #ffffff;
+    --font-color: #c7254e;
+    --button-color: green;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.flex {
+    display: flex;
+}
+
+.auto-fit-img {
+    width: 100%;
+}
+

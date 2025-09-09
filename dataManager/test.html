@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 1. 只需要把下面代码粘到你的页面即可 -->
+
+
+<!-- 2. 展示组件 -->
+<div class="stats-card">
+  <!-- 第一组：基础属性 -->
+  <section class="stats-section">
+    <h3 class="section-title">基础属性</h3>
+    <div class="stats-grid">
+      <div class="stat-item">
+        <span class="stat-label">num</span>
+        <span class="stat-value">5</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-label">hp</span>
+        <span class="stat-value">200</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-label">lmSt</span>
+        <span class="stat-value">0.8</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-label">fogOfWarSightRange</span>
+        <span class="stat-value">27</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-label">armour</span>
+        <span class="stat-value">19</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 第二、三组：关联对比 -->
+  <section class="stats-section">
+    <h3 class="section-title">对比参数</h3>
+    <div class="compare-row">
+      <div class="compare-col">
+        <div class="stat-item">
+          <span class="stat-label">hitCoe</span>
+          <span class="stat-value">0.25</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">hitRate</span>
+          <span class="stat-value">-0.3</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">movDec</span>
+          <span class="stat-value">0.4</span>
+        </div>
+      </div>
+
+      <div class="compare-col">
+        <div class="stat-item">
+          <span class="stat-label">hitCoe1</span>
+          <span class="stat-value">0.4</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">hitRate1</span>
+          <span class="stat-value">0.1</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">movDec1</span>
+          <span class="stat-value">0.2</span>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+</body>
+<style>
+:root {
+  --card-bg: #ffffff;
+  --border: 1px solid #e5e7eb;
+  --border-radius: 8px;
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --label-color: #4b5563;
+  --value-color: #111827;
+  --accent: #3b82f6;
+  --accent-light: #dbeafe;
+  --shadow: 0 1px 2px 0 rgb(0 0 0 / 5%);
+}
+
+.stats-card {
+  max-width: 480px;
+  margin: 24px auto;
+  font-family: var(--font-family);
+  border: var(--border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  background: var(--card-bg);
+  overflow: hidden;
+}
+
+.stats-section {
+  padding: 16px 20px;
+}
+
+.stats-section + .stats-section {
+  border-top: var(--border);
+}
+
+.section-title {
+  margin: 0 0 12px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  gap: 12px;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-label {
+  font-size: 12px;
+  color: var(--label-color);
+}
+
+.stat-value {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--value-color);
+}
+
+/* 对比组样式 */
+.compare-row {
+  display: flex;
+  gap: 16px;
+}
+
+.compare-col {
+  flex: 1;
+  border: var(--border);
+  border-radius: var(--border-radius);
+  background: var(--accent-light);
+  padding: 12px;
+}
+
+.compare-col .stat-item {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4px 0;
+}
+</style>
+</html>

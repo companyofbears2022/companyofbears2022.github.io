@@ -9,7 +9,7 @@
 /cobw3/coverage
 
 # production
-/cobw3/build
+# /cobw3/build
 
 # misc
 .DS_Store
